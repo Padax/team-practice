@@ -1,0 +1,1 @@
+document.querySelector(".user-6").textContent="早上沒成功，晚上再來試一次～";
