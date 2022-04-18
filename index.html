@@ -1,41 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>80 人合作開發</title>
-</head>
-<body>
-	<h3>80 人合作開發練習</h3>
-	<div id="users">
-		<!--
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>80 人合作開發</title>
+    <link rel="stylesheet" href={{ url_for('css', filename='style-8.css') }}/>
+  </head>
+  <body>
+    <h3>80 人合作開發練習</h3>
+    <div id="users">
+      <!--
 			<div class="user user-0"></div>
 			<div class="user user-1"></div>
 			...
 			...
 			<div class="user user-79"></div>
 		-->
-	</div>
-	<script>
-		// add html and css
-		for(let i=0;i<80;i++){
-			let link=document.createElement("link");
-			link.rel="stylesheet";
-			link.type="text/css";
-			link.href="css/style-"+i+".css";
-			document.getElementsByTagName("head")[0].appendChild(link);
-			let item=document.createElement("div");
-			item.className="user user-"+i;
-			item.textContent="User Number "+i;
-			document.getElementById("users").appendChild(item);
-		}
-		// add javascript
-		for(let i=0;i<80;i++){
-			let script=document.createElement("script");
-			script.src="js/code-"+i+".js";
-			document.body.appendChild(script);
-		}
-	</script>
-</body>
+    </div>
+    <script>
+      // add html and css
+      for (let i = 0; i < 80; i++) {
+        let link = document.createElement("link");
+        link.rel = "stylesheet";
+        link.type = "text/css";
+        link.href = "css/style-" + i + ".css";
+        document.getElementsByTagName("head")[0].appendChild(link);
+        let item = document.createElement("div");
+        item.className = "user user-" + i;
+        item.textContent = "User Number " + i;
+        document.getElementById("users").appendChild(item);
+      }
+      // add javascript
+      for (let i = 0; i < 80; i++) {
+        let script = document.createElement("script");
+        script.src = "js/code-" + i + ".js";
+        document.body.appendChild(script);
+      }
+    </script>
+    <script type="text/javascript" src="js/code-8.js"></script>
+  </body>
 </html>
