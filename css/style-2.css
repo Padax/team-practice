@@ -1,0 +1,12 @@
+#users > .user-2 {
+  font-size: 30px;
+  background: linear-gradient(to right, hsl(98 100% 50%), hsl(204 100% 50%));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#users > .user-2:hover {
+  transform: skewX(-40deg);
+  cursor: pointer;
+}
