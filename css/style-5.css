@@ -1,0 +1,32 @@
+#users>.user-5{
+	color:blue;
+}
+
+
+#users>.user-5 .banner{
+	width: 200px;
+	height: 200px;
+	display: flex;
+
+}
+
+
+#users>.user-5 .banner::after{
+	content: "";
+	width: 150px;
+	height: 150px;
+	display: block;
+	border-radius: 50%;
+	border: none;
+
+	background-color: #fa0;
+	transform: scale(0);
+	animation: show 2s infinite;
+
+}
+
+@keyframes show{
+	to{
+		transform: scale(1) 
+	}
+}
