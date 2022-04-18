@@ -1,0 +1,1 @@
+document.querySelector(".user-24").textContent="照過來~張郡驛";
