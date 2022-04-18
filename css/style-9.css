@@ -1,0 +1,8 @@
+#users>.user-9{
+	color: rgb(12, 131, 111);
+}
+
+#users>.user-9:hover {
+	font-size: 32px;
+	text-shadow: 1px 1px 4px rgb(0 0 0/40%);
+}
