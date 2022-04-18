@@ -1,0 +1,14 @@
+#users>.user-15{
+	animation: jump .5s ease-in infinite;
+	color: #448899;
+}
+
+@keyframes jump {
+	0%, 100% {
+		transform: translateY(0);
+	}
+	
+	50% {
+		transform: translateY(-10px);
+	}
+}
