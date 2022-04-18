@@ -1,0 +1,11 @@
+#users>.user-6{
+	color: lightcoral;
+    font-size: 15px;
+    font-weight: bold;
+}
+#users>.user-6:hover{
+	color: lightskyblue;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+}
