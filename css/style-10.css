@@ -1,0 +1,9 @@
+#users>.user-10{
+	color: #666;
+	cursor: pointer;
+}
+
+#users>.user-10:hover{
+	transition: .5s;
+	transform: translateX(50px);
+}
