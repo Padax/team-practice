@@ -1,3 +1,13 @@
 #users>.user-0{
 	color:red;
 }
+
+#users>.user-21{
+	width:fit-content;
+	color:rgb(233, 188, 247);
+	background-color: black;
+}
+#users>.user-21:hover{
+	color:rgb(40, 7, 58);
+	background-color: rgb(238, 215, 250);
+}
