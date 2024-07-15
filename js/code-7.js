@@ -1,0 +1,1 @@
+document.querySelector(".user-7").textContent="千華";
