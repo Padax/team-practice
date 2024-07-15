@@ -1,1 +1,1 @@
-document.querySelector(".user-0").textContent="千華";
+document.querySelector(".user-7").textContent="千華";
