@@ -1,1 +1,1 @@
-document.querySelector("#users>.user-40").textContent="尚峰";
+document.querySelector(".user-40").textContent="尚峰";
