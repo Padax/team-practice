@@ -1,4 +1,5 @@
 .user-7 button {
+  display: block;
   background-color: skyblue;
   color: white;
   padding: 10px 20px;
